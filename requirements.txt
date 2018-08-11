@@ -6,7 +6,7 @@ idna==2.7
 Jinja2==2.10
 lxml==4.2.3
 MarkupSafe==1.0
-ncclient==0.5.3
+ncclient==0.6.0
 netmiko==2.1.1
 paramiko==2.4.1
 pyang==1.7.5
