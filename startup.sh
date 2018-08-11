@@ -52,7 +52,7 @@ echo ***Launching Router Provisioning Script***
 echo
 
 cd provision
-python provision/provision_gs.py
+python provision_gs.py
 cd ..
 
 echo
