@@ -16,9 +16,5 @@ Vagrant.configure("2") do |config|
   #   apt-get update
   #   apt-get install -y apache2
   # SHELL
-  config.vm.provision "ansible" do |ansible|
-    ansible.playbook = "ansible/cl_startup_playbook.yml"
-    ansible.inventory_path = "ansible/hosts.ini"
-  end
 
 end
